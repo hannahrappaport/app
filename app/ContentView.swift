@@ -22,7 +22,7 @@ struct ContentView: View {
                 .border(Color.gray, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
                 .padding()
             Button("Submit Name") {
-                textTitle = "Welcome, \(name)"
+                textTitle = "Welcome, \(name)!"
             }
             .font(.title2)
             .buttonStyle(.borderedProminent)
